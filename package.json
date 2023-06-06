@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ghizlanelhadochi.github.io/mynew",
+  "homepage": "http://ghizlanelhadochi.github.io/mynew",
   "name": "react_p",
   "private": true,
   "version": "0.0.0",
@@ -8,7 +8,7 @@
     "dev": "vite",
     
     "predeploy": "npm run build",
-   "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d docs",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
